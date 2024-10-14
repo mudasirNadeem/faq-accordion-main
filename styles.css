@@ -1,0 +1,44 @@
+*{
+    font-family: "Outfit", serif;
+}
+.bg-image{
+    background: url(assets/images/background-pattern-desktop.svg) no-repeat;
+    background-color: hsl(275, 100%, 97%);
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.card{
+    width: 600px;
+    margin: auto;
+}
+ul li{
+list-style: none !important;
+}
+ol li{
+    margin: 15px 0;
+}
+button{
+    border: 0 !important;
+    background-color: transparent !important;
+}
+.border-bottom-1{
+    border-bottom: solid 2px #d3d3d3;
+}
+.dropContant[data-active='false'] {
+    display: none; 
+}
+
+.dropContant[data-active='true'] {
+    display: grid;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+ul li{
+    margin-top: 30px;
+}
+ul li:first-child{
+    margin-top: 0px;
+}
